@@ -1,4 +1,4 @@
-# hafezfhmi dotfiles
+# hafezfhmi's dotfiles
 
 ## Configure [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/) in windows
 
@@ -26,7 +26,7 @@ winget install --id Git.Git -e --source winget
 
 5. Install [Nerd Fonts](https://www.nerdfonts.com/#home) in your terminal.
 
-- Use JetBrainsMono Nerd font (<https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip>)
+- Use [JetBrainsMono Nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 - Apply it in your [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?launch=true&mode=full&hl=en-us&gl=my&ocid=bingwebsearch)
 
 6. Install [lazygit](https://github.com/jesseduffield/lazygit?tab=readme-ov-file)
@@ -56,7 +56,6 @@ scoop install fd
 
 10. Install [Python](https://www.python.org/downloads/windows/)
 
-- When installing, click on Customize installation > Next and tick on "Add Python to environment variables"
 - Make sure you can run python using 'python' in the terminal. If it opens up Windows store, use this solution [CMD opens Windows Store when I type 'python' - Stack Overflow](https://stackoverflow.com/questions/58754860/cmd-opens-windows-store-when-i-type-python)
 
 11. Create a link of the nvim config from the repo
@@ -65,5 +64,4 @@ scoop install fd
 Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d $env:LOCALAPPDATA\nvim C:\Users\<user1>\<pathtorepo>\nvim'
 ```
 
-- Replace <pathtorepo> with path to the cloned repository and <user1> with your user.```bash
-  ln -s /home/my-user/dotfiles/nvim /home/my-user/.config/nvim
+- Replace `<user1>` with your user and `<pathtorepo>` with path to the cloned repository.
