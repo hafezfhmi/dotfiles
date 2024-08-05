@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Configure Neovim with LazyVim in windows](#configure-neovim-with-lazyvim-in-windows)
-- [Configure Neovim with LazyVim in linux (via WSL)](<#configure-neovim-with-lazyvim-in-linux-(via-wsl)>)
+- [Configure Neovim with LazyVim in linux (via WSL)](#configure-neovim-with-lazyvim-in-linux-via-wsl)
 
 ## Configure [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/) in windows
 
