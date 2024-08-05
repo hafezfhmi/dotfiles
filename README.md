@@ -57,9 +57,9 @@
 10. Install [Python](https://www.python.org/downloads/windows/)
 
     - Make sure you can run python using 'python' in the terminal.
-      If it opens up Windows store, use this solution [CMD opens Windows Store when I type 'python' - Stack Overflow](https://stackoverflow.com/questions/58754860/cmd-opens-windows-store-when-i-type-python)
+      If it opens up Windows store, use this solution: [CMD opens Windows Store when I type 'python' - Stack Overflow](https://stackoverflow.com/questions/58754860/cmd-opens-windows-store-when-i-type-python)
 
-11. Create a link of the nvim config from the repo
+11. Create a soft link of the nvim config from the repo
 
     ```shell
     Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d $env:LOCALAPPDATA\nvim C:\Users\<user1>\<pathtorepo>\nvim'
