@@ -1,5 +1,7 @@
 # hafezfhmi's dotfiles
 
+I mostly use Windows OS with WSL (Ubuntu) for my development environment. This repository contains my dotfiles for configuring my development environment.
+
 ## Table of Contents
 
 - [Configure Neovim with LazyVim in windows](#configure-neovim-with-lazyvim-in-windows)
