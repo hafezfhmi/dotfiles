@@ -173,3 +173,9 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
    ```
 
    - This will create a startup file in `C:\Users\<user1>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+5. (Optional) Start komorebi
+
+   ```shell
+   komorebic start --whkd
+   ```
