@@ -157,13 +157,13 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
    ```shell
    # komorebi config file
-   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d C:\Users\<user1>\komorebi.json C:\Users\<user1>\<pathtorepo>\komorebi.json'
+   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink C:\Users\<user1>\komorebi.json C:\Users\<user1>\<pathtorepo>\komorebi.json'
 
    # whkd config file
-   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d C:\Users\<user1>\.config\whkdrc C:\Users\<user1>\<pathtorepo>\.config\whkdrc'
+   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink C:\Users\<user1>\.config\whkdrc C:\Users\<user1>\<pathtorepo>\.config\whkdrc'
 
    # application list config
-   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d C:\Users\<user1>\applications.yaml C:\Users\<user1>\<pathtorepo>\applications.yaml'
+   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink C:\Users\<user1>\applications.yaml C:\Users\<user1>\<pathtorepo>\applications.yaml'
    ```
 
 4. Enable komorebi autostart
