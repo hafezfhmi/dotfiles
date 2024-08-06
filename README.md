@@ -7,6 +7,8 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - [Configure Neovim with LazyVim in windows](#configure-neovim-with-lazyvim-in-windows)
 - [Configure Neovim with LazyVim in linux (via WSL)](#configure-neovim-with-lazyvim-in-linux-via-wsl)
 
+- [Configure komorebi tiling window manager for windows](#configure-komorebi-panning-window-manager-for-windows)
+
 ## Configure [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/) in windows
 
 1. Install [Scoop](https://scoop.sh/)
@@ -137,3 +139,37 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
     ```
 
     - Replace `<user1>` with your user and `<pathtorepo>` with path to the cloned repository.
+
+## Configure [komorebi](https://github.com/LGUG2Z/komorebi) panning window manager for windows
+
+1. (Optional) Disable unnecessary system animations
+
+   - It is highly recommended that you enable the "Turn off all unnecessary animations (when possible)" option in "Control Panel > Ease of Access > Ease of Access Centre / Make the computer easier to see" for the best performance with komorebi.
+
+2. Install [komorebi](https://github.com/LGUG2Z/komorebi)
+
+   ```shell
+   scoop bucket add extras
+   scoop install komorebi whkd
+   ```
+
+3. Create a softlink for komorebi config file
+
+   ```shell
+   # komorebi config file
+   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d C:\Users\<user1>\komorebi.json C:\Users\<user1>\<pathtorepo>\komorebi.json'
+
+   # whkd config file
+   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d C:\Users\<user1>\.config\whkdrc C:\Users\<user1>\<pathtorepo>\.config\whkdrc'
+
+   # application list config
+   Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d C:\Users\<user1>\applications.yaml C:\Users\<user1>\<pathtorepo>\applications.yaml'
+   ```
+
+4. Enable komorebi autostart
+
+   ```shell
+   komorebic.exe enable-autostart --whkd
+   ```
+
+   - This will create a startup file in `C:\Users\<user1>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
