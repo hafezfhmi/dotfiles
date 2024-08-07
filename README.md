@@ -184,13 +184,13 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
 1. Install [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?launch=true&mode=full&hl=en-us&gl=my&ocid=bingwebsearch)
 
-2. Install [Nerd Fonts](https://www.nerdfonts.com/#home) .
+2. Install [Nerd Fonts](https://www.nerdfonts.com/#home)
 
    - Use [JetBrainsMono Nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
 
 3. Install [PowerShell](https://apps.microsoft.com/detail/9mz1snwt0n5d?launch=true&mode=full&hl=en-us&gl=my&ocid=bingwebsearch)
 
-4. Add custom Windows terminal color scheme.
+4. Add custom Windows terminal color scheme
 
 5. Open settings.json via Windows Terminal > Settings > Setting icon (bottom left)
 
@@ -222,7 +222,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
    }
    ```
 
-7. Configure Windows terminal.
+7. Configure Windows terminal
 
    1. Windows Terminal > Settings > Startup > Default terminal application (choose Windows Terminal)
 
