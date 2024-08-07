@@ -6,8 +6,8 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
 - [Configure Neovim with LazyVim in windows](#configure-neovim-with-lazyvim-in-windows)
 - [Configure Neovim with LazyVim in linux (via WSL)](#configure-neovim-with-lazyvim-in-linux-via-wsl)
-
 - [Configure komorebi tiling window manager for windows](#configure-komorebi-panning-window-manager-for-windows)
+- [Customize Windows Powershell](#customoze-windows-powershell)
 
 ## Configure [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/) in windows
 
@@ -179,3 +179,133 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
    ```shell
    komorebic start --whkd
    ```
+
+## Customize Windows Powershell
+
+1. Install [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?launch=true&mode=full&hl=en-us&gl=my&ocid=bingwebsearch)
+
+2. Install [Nerd Fonts](https://www.nerdfonts.com/#home) .
+
+   - Use [JetBrainsMono Nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip)
+
+3. Install [PowerShell](https://apps.microsoft.com/detail/9mz1snwt0n5d?launch=true&mode=full&hl=en-us&gl=my&ocid=bingwebsearch)
+
+4. Add custom Windows terminal color scheme.
+
+5. Open settings.json via Windows Terminal > Settings > Setting icon (bottom left)
+
+6. In "schemes" key, add this object to the array:
+
+   ```text
+   {
+      "background": "#001B26",
+      "black": "#282C34",
+      "blue": "#61AFEF",
+      "brightBlack": "#5A6374",
+      "brightBlue": "#61AFEF",
+      "brightCyan": "#56B6C2",
+      "brightGreen": "#98C379",
+      "brightPurple": "#C678DD",
+      "brightRed": "#E06C75",
+      "brightWhite": "#DCDFE4",
+      "brightYellow": "#E5C07B",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#56B6C2",
+      "foreground": "#DCDFE4",
+      "green": "#98C379",
+      "name": "One Half Dark (modded)",
+      "purple": "#C678DD",
+      "red": "#E06C75",
+      "selectionBackground": "#FFFFFF",
+      "white": "#DCDFE4",
+      "yellow": "#E5C07B"
+   }
+   ```
+
+7. Configure Windows terminal.
+
+   1. Windows Terminal > Settings > Startup > Default terminal application (choose Windows Terminal)
+
+   2. Windows Terminal > Settings > Startup > Default profile (choose Powershell)
+
+   3. Windows Terminal > Settings > Appearance > Use acrylic material in the tab row (enable)
+
+   4. Windows Terminal > Settings > Defaults > Appearance > Font Size (9)
+
+   5. Windows Terminal > Settings > Defaults > Appearance > Color scheme (One Half Dark (modded))
+
+   6. Windows Terminal > Settings > Defaults > Appearance > Font face (JetBrainsMono Nerd Font)
+
+   7. Windows Terminal > Settings > Defaults > Appearance > Background opacity (50%)
+
+   8. Windows Terminal > Settings > Defaults > Appearance > Enable acrylic material (enable)
+
+8. Install [Scoop](https://scoop.sh/)
+
+   ```shell
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+   ```
+
+9. Install [Oh My Posh](https://ohmyposh.dev/)
+
+   ```
+   scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+   ```
+
+10. Install [posh-git](https://github.com/dahlbyk/posh-git)
+
+    ```
+    scoop bucket add extras
+    scoop install posh-git
+    Add-PoshGitToProfile
+    ```
+
+11. Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
+
+    ```
+    scoop bucket add extras
+    scoop install terminal-icons
+    ```
+
+12. Install [z directory jumper](https://github.com/badmotorfinger/z)
+
+    ```
+    Install-Module z -AllowClobber
+    ```
+
+13. Install [PSReadLine](https://github.com/PowerShell/PSReadLine)
+
+    ```
+    Install-Module PSReadLine
+    ```
+
+14. Install [PSFzf](https://github.com/kelleyma49/PSFzf)
+
+    ```
+    Install-Module -Name PSFzf
+    ```
+
+15. Create a link for powershell config
+
+    ```shell
+    Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink C:\Users\<user1>\.config\powershell C:\Users\<user1>\<pathtorepo>\.config\powershell'
+    ```
+
+16. Use the powershell config
+
+    ```shell
+    vim $PROFILE.CurrentUserCurrentHost
+    ```
+
+    - Paste:
+
+      ```text
+      . $env:USERPROFILE\.config\powershell\user_profile.ps1`
+      ```
+
+17. Reload powershell profile
+
+    ```shell
+    . $PROFILE
+    ```
