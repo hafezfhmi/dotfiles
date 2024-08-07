@@ -7,7 +7,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - [Configure Neovim with LazyVim in windows](#configure-neovim-with-lazyvim-in-windows)
 - [Configure Neovim with LazyVim in linux (via WSL)](#configure-neovim-with-lazyvim-in-linux-via-wsl)
 - [Configure komorebi tiling window manager for windows](#configure-komorebi-panning-window-manager-for-windows)
-- [Customize Windows Powershell](#customoze-windows-powershell)
+- [Customize Windows Powershell](#customize-windows-powershell)
 
 ## Configure [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/) in windows
 
