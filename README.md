@@ -54,7 +54,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
 - Symlinks:
 
-  - `windows-terminal\settings.json --> C:\Users\hafezfhmi\AppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+  - `windows-terminal\settings.json --> C:\Users\hafezfhmi\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 
 - Notes:
 
