@@ -36,7 +36,12 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
     ```shell
     komorebic.exe enable-autostart --whkd
-    ```
+ 
+  - Creating symlinks in windows requires administrator privileges. Run the following command in PowerShell as an administrator.
+
+    ```shell
+    mklink path-to-symlink path-to-target-file
+    ```   ```
 
 ## [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-my&gl=MY)
 
@@ -54,5 +59,5 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
   - Creating symlinks in windows requires administrator privileges. Run the following command in PowerShell as an administrator.
 
     ```shell
-    mklink $Env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json .\windows-terminal\settings.json
+    mklink path-to-symlink path-to-target-file
     ```
