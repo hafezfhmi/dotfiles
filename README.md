@@ -66,3 +66,18 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
     ```
 
   - If windows terminal is running, it will auto generate settings.json. Use another terminal to create this symlink.
+
+## Z shell
+
+- Pre-requisite:
+
+  - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+  - [Oh My Zsh](https://ohmyz.sh/)
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+  - [nvm](https://github.com/nvm-sh/nvm) (optional)
+  - [Homebrew](https://brew.sh/) (optional)
+  - [Neovim](https://neovim.io/) (optional)
+
+- Symlinks:
+
+  - `zsh/.zshrc --> ~/.zshrc`
