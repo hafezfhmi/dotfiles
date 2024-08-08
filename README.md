@@ -51,6 +51,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
   - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-my&gl=MY)
   - [Nerd Fonts - JetBrainsMono](https://www.nerdfonts.com/#home)
+  - [PowerShell](https://apps.microsoft.com/detail/9mz1snwt0n5d?rtc=1&hl=en-my&gl=MY)
 
 - Symlinks:
 
@@ -63,3 +64,5 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
     ```shell
     Start-Process -Verb RunAs powershell.exe -Args 'cmd /c mklink /d symlink-path file-path'
     ```
+
+  - If windows terminal is running, it will auto generate settings.json. Use another terminal to create this symlink.
