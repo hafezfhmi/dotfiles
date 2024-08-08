@@ -16,9 +16,9 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
 - Symlinks:
 
-  - nvim/.config/nvim --> ~/.config/nvim (Linux)
+  - `nvim/.config/nvim --> ~/.config/nvim` (Linux)
 
-# [Komorebi](https://github.com/LGUG2Z/komorebi)
+## [Komorebi](https://github.com/LGUG2Z/komorebi)
 
 - Pre-requisite:
 
@@ -26,9 +26,9 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
 - Symlinks:
 
-  - komorebi/komorebi.json --> $Env:USERPROFILE\komorebi.json
-  - komorebi/applications.yaml --> $Env:USERPROFILE\applications.yaml
-  - komorebi/.config/whkdrc --> $Env:USERPROFILE\.config\whkdrc
+  - `komorebi/komorebi.json --> $Env:USERPROFILE\komorebi.json`
+  - `komorebi/applications.yaml --> $Env:USERPROFILE\applications.yaml`
+  - `komorebi/.config/whkdrc --> $Env:USERPROFILE\.config\whkdrc`
 
 - Notes:
 
@@ -47,7 +47,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
 - Symlinks:
 
-  - windows-terminal/settings.json --> $Env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+  - `windows-terminal/settings.json --> $Env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
 
 - Notes:
 
