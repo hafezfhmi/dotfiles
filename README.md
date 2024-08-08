@@ -41,7 +41,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 
     ```shell
     mklink path-to-symlink path-to-target-file
-    ```   ```
+    ```   
 
 ## [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-my&gl=MY)
 
