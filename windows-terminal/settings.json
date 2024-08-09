@@ -45,7 +45,7 @@
         "defaults": 
         {
             "backgroundImage": null,
-            "colorScheme": "One Half Dark (modded)",
+            "colorScheme": "Solarized Osaka",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
@@ -237,6 +237,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#EEE8D5",
             "yellow": "#B58900"
+        },
+        {
+            "background": "#00141A",
+            "black": "#001015",
+            "blue": "#278BD3",
+            "brightBlack": "#647A82",
+            "brightBlue": "#47ADF5",
+            "brightCyan": "#2BEEDE",
+            "brightGreen": "#B7FA00",
+            "brightPurple": "#9CA0ED",
+            "brightRed": "#F65351",
+            "brightWhite": "#DCDFE4",
+            "brightYellow": "#FFBF00",
+            "cursorColor": "#9FABAD",
+            "cyan": "#2AA298",
+            "foreground": "#839495",
+            "green": "#859900",
+            "name": "Solarized Osaka",
+            "purple": "#6D72C5",
+            "red": "#DC312E",
+            "selectionBackground": "#002D38",
+            "white": "#DCDFE4",
+            "yellow": "#B38600"
         },
         {
             "background": "#000000",
