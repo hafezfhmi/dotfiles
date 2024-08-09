@@ -81,3 +81,22 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - Symlinks:
 
   - `zsh/.zshrc --> ~/.zshrc`
+
+## [Tmux](https://github.com/tmux/tmux/wiki)
+
+- Pre-requisite:
+
+  - [Tmux](https://github.com/tmux/tmux/wikihttps://github.com/tmux/tmux/wiki)
+  - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+
+- Symlinks:
+
+  - `tmux/.config/tmux.conf --> ~/.config/tmux.conf`
+
+- Notes:
+
+  - Install plugins via TPM
+
+  ```shell
+    prefix + I
+  ```
