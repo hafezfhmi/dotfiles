@@ -24,7 +24,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - Pre-requisite:
 
   - [Komorebi](https://github.com/LGUG2Z/komorebi)
-    [Autohotkey](https://scoop.sh/#/apps?q=autohotkey&id=a0ad197d665b3996fd64052d328b6f8874a6b8de)
+  - [AutoHotkey](https://scoop.sh/#/apps?q=autohotkey&id=a0ad197d665b3996fd64052d328b6f8874a6b8de)
 
 - Symlinks:
 
