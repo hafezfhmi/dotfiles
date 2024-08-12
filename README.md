@@ -24,19 +24,21 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - Pre-requisite:
 
   - [Komorebi](https://github.com/LGUG2Z/komorebi)
+    [Autohotkey](https://scoop.sh/#/apps?q=autohotkey&id=a0ad197d665b3996fd64052d328b6f8874a6b8de)
 
 - Symlinks:
 
   - `komorebi\komorebi.json --> C:\Users\hafezfhmi\komorebi.json`
   - `komorebi\applications.yaml --> C:\Users\hafezfhmi\applications.yaml`
-  - `komorebi\.config/whkdrc --> C:\Users\hafezfhmi\.config\whkdrc`
+  - `komorebi\komorebi.ahk --> C:\Users\hafezfhmi\komorebi.ahk`
+  - `komorebi\.config\whkdrc --> C:\Users\hafezfhmi\.config\whkdrc`
 
 - Notes:
 
   - Enable komorebi autostart
 
     ```shell
-    komorebic.exe enable-autostart --whkd
+    komorebic.exe enable-autostart --ahk
     ```
 
   - Creating symlinks in windows requires administrator privileges. Run the following command in PowerShell as an administrator. Remove /d if it is a file.
