@@ -102,3 +102,13 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
   ```shell
     prefix + I
   ```
+
+## [i3wm](https://i3wm.org)
+
+- Pre-requisite:
+
+  - [i3wm](https://i3wm.org)
+
+- Symlinks:
+
+  - `i3/.config/i3 --> ~/.config/i3`
