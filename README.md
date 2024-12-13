@@ -108,7 +108,21 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - Pre-requisite:
 
   - [i3wm](https://i3wm.org)
+  - [JetBrains Mono](https://www.nerdfonts.com)
+    - `sudo apt install fonts-jetbrains-mono` 
+  - [picom] (https://github.com/yshui/picom)
 
 - Symlinks:
 
   - `i3/.config/i3 --> ~/.config/i3`
+
+## [picom](https://github.com/yshui/picom)
+
+- Pre-requisite:
+
+  - [i3wm](https://i3wm.org)
+  - [picom] (https://github.com/yshui/picom)
+
+- Symlinks:
+
+  - `picom/.config/picom --> ~/.config/picom`

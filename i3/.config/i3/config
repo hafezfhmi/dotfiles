@@ -15,6 +15,10 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:JetBrains Mono 8
 
+# Picom
+# exec --no-startup-id picom 
+exec --no-startup-id picom --config ~/.config/picom/picom.conf 
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
