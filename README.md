@@ -111,6 +111,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
   - [JetBrains Mono](https://www.nerdfonts.com)
     - `sudo apt install fonts-jetbrains-mono` 
   - [picom] (https://github.com/yshui/picom)
+  - [alacritty] (https://github.com/alacritty/alacritty)
 
 - Symlinks:
 
