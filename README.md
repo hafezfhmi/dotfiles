@@ -112,6 +112,7 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
     - `sudo apt install fonts-jetbrains-mono` 
   - [picom] (https://github.com/yshui/picom)
   - [alacritty] (https://github.com/alacritty/alacritty)
+  - [polybar] (https://github.com/polybar/polybar)
 
 - Symlinks:
 
@@ -127,3 +128,13 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - Symlinks:
 
   - `picom/.config/picom --> ~/.config/picom`
+
+## [polybar](https://github.com/polybar/polybar)
+
+- Pre-requisite:
+
+  - [polybar](https://github.com/polybar/polybar)
+
+- Symlinks:
+
+  - `picom/.config/polybar --> ~/.config/polybar`
