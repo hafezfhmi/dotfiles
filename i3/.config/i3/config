@@ -14,7 +14,7 @@ gaps inner 25
 exec --no-startup-id picom 
 
 #Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch-polybar.sh
 
 # start a terminal
 bindsym $mod+Return exec alacritty
