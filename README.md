@@ -138,3 +138,9 @@ I mostly use Windows OS with WSL (Ubuntu) for my development environment. This r
 - Symlinks:
 
   - `picom/.config/polybar --> ~/.config/polybar`
+
+## [X11] (https://www.x.org/wiki)
+
+- Symlinks:
+
+  - `X11/xorg.conf.d --> ~/usr/share/X11/xorg.conf.d`
