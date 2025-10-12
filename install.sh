@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# UPDATE APT packages
+sudo apt update
+
 # INSTALL NECESSARY PROGRAMS
 echo "--- Installing necessary programs ---"
 sudo apt install xz-utils
@@ -43,10 +46,4 @@ sudo apt install fd-find
 mkdir -p ~/.local/bin
 ln -sf $(which fdfind) ~/.local/bin/fd
 
-# other requirement that is already installed:
-# - curl
-
 echo "--- Completed installing lazyvim requirements ---"
-
-# TODO: Okay, for lazyvim, we don't need to do any program installation. We only need to manage the dotfiles that is located in ~/.config folder
-# TODO: We might not need to write to our .bashrc as seen in this file for adding the env PATH. Instead, we will add .bashrc to our dotfiles
