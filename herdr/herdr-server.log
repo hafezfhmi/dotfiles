@@ -1,0 +1,69 @@
+2026-09-01T15:16:52.542097Z  INFO herdr::api::server: api server listening path=/home/hafezfhmi/.config/herdr/herdr.sock
+2026-09-01T15:16:52.542914Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-09-01T15:16:52.721909Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-09-01T15:16:52.725561Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-09-01T15:16:52.726240Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=19696
+2026-09-01T15:16:52.728240Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-09-01T15:16:52.728250Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-09-01T15:16:52.728258Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-09-01T15:16:52.728262Z  INFO herdr::server::headless: created startup workspace cwd=/home/hafezfhmi/dotfiles
+2026-09-01T15:16:52.728299Z  INFO herdr::server::headless: client protocol socket listening path=/home/hafezfhmi/.config/herdr/herdr-client.sock
+2026-09-01T15:16:52.728318Z  INFO herdr::server::headless: herdr server started api_socket=/home/hafezfhmi/.config/herdr/herdr.sock client_socket=/home/hafezfhmi/.config/herdr/herdr-client.sock
+2026-09-01T15:16:52.728445Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=19676
+2026-09-01T15:16:52.981067Z  INFO herdr::server::headless: client connected client_id=2 cols=184 rows=44 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T15:16:59.597179Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/hafezfhmi/.config/herdr/session.json workspaces=1
+2026-09-01T15:17:01.078902Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 130, signal: None }"
+2026-09-01T15:17:01.080098Z  INFO herdr::pane: pane session terminated pane=1 pid=19696 signal=Hangup
+2026-09-01T15:17:01.080175Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=43 cols=158 scrollback_limit_bytes=10000000
+2026-09-01T15:17:01.080966Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=19883
+2026-09-01T15:17:01.081107Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-09-01T15:17:01.081116Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-09-01T15:17:01.081127Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-09-01T15:17:01.920742Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-09-01T15:17:01.922393Z  INFO herdr::pane: pane session terminated pane=2 pid=19883 signal=Hangup
+2026-09-01T15:17:01.922471Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=43 cols=158 scrollback_limit_bytes=10000000
+2026-09-01T15:17:01.923358Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=20036
+2026-09-01T15:17:01.923522Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=3
+2026-09-01T15:17:01.923532Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-09-01T15:17:01.923585Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-09-01T15:17:02.118542Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-09-01T15:17:02.120266Z  INFO herdr::pane: pane session terminated pane=3 pid=20036 signal=Hangup
+2026-09-01T15:17:02.120390Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=43 cols=158 scrollback_limit_bytes=10000000
+2026-09-01T15:17:02.121133Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=20185
+2026-09-01T15:17:02.121320Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=4
+2026-09-01T15:17:02.121329Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-09-01T15:17:02.121342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-09-01T15:17:04.450253Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-09-01T15:17:04.451177Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-09-01T15:17:04.451236Z  INFO herdr::pane: pane session terminated pane=4 pid=20185 signal=Hangup
+2026-09-01T15:17:04.451488Z  WARN herdr::app::actions: PaneDied for unknown pane pane=4
+2026-09-01T15:17:04.451560Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=43 cols=158 scrollback_limit_bytes=10000000
+2026-09-01T15:17:04.452457Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=20346
+2026-09-01T15:17:04.452597Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=5
+2026-09-01T15:17:04.452604Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-09-01T15:17:04.452619Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-09-01T15:17:06.707314Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-09-01T15:17:06.708854Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-09-01T15:17:09.457460Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/hafezfhmi/.config/herdr/session.json workspaces=1
+2026-09-01T15:19:25.172045Z  INFO herdr::server::headless: client connected client_id=4 cols=184 rows=44 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T15:22:58.682470Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-09-01T15:22:58.685240Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-09-01T15:23:31.522124Z  INFO herdr::server::headless: client connected client_id=6 cols=184 rows=44 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T15:23:35.029885Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:23:35.501630Z  INFO herdr::server::headless: client detach requested via keybind client_id=6
+2026-09-01T15:23:35.503241Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-09-01T15:23:45.700012Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-09-01T15:23:45.701343Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-09-01T15:23:51.301598Z  INFO herdr::server::headless: client connected client_id=8 cols=184 rows=44 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T15:23:52.860435Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:23:54.272071Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:24:03.415796Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:24:17.046197Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:24:27.324535Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:25:11.407192Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:25:38.924176Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-09-01T15:25:39.463597Z  INFO herdr::server::headless: client detach requested via keybind client_id=8
+2026-09-01T15:25:39.465595Z  INFO herdr::server::headless: client disconnected client_id=8
+2026-09-01T15:26:28.519553Z  INFO herdr::server::headless: client connected client_id=10 cols=184 rows=44 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-09-01T15:26:30.903439Z  INFO herdr::server::headless: client detach requested via keybind client_id=10
+2026-09-01T15:26:30.905052Z  INFO herdr::server::headless: client disconnected client_id=10
