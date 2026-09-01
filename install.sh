@@ -71,3 +71,7 @@ echo "--- Installing extra utils ---"
 sudo apt install python3
 sudo apt install unzip
 sudo apt install python3.12-venv
+
+# install herdr
+echo "--- Installing herdr ---"
+curl -fsSL https://herdr.dev/install.sh | sh
